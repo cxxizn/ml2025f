@@ -153,7 +153,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
+      這次的作業透過Colab訓練3D U-Net模型，讓我更深入了解深度學習在醫學影像分割中的應用。過程中學會了如何處理3D資料，並調整模型參數以提升準確率。雖然訓練時間較長，但透過雲端資源有效解決了硬體限制的問題。這次作業不僅加深了我對U-Net架構的理解，也讓我體會到模型訓練中資料前處理的重要性，收穫良多。
     </div>
   </div>
 
@@ -169,12 +169,12 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>4</td>
           <td>Simple baseline - 描述</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2" checked></td>
           <td id='m2'>4</td>
           <td>Medium baseline - 描述</td>
         </tr>
@@ -184,7 +184,7 @@
           <td>Strong baseline - 描述</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4"></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
@@ -196,14 +196,34 @@
   <!-- ------------------------------------------------>
   <div class="row hw12 bottomrow">
     <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
+      <table>
+        <tr>
+          <td> Simple Baseline Dice分數圖片
+          <img src="hw2-simple.png" width="100%" height="560">
+        </tr>
+        <tr>
+          <td> Medium Baseline Dice分數圖片
+          <img src="hw2-medium.png" width="100%" height="560">
+        </tr>
+      </table>
     </div>
   </div>
 
   <!-- ------------------------------------------------>
-
+  <!-- <div class="row hw12 bottomrow">
+    <div class="col-md-12 twenty">
+      Strong Baseline colab連結:
+      <a href="https://colab.research.google.com/drive/1iC7i_EWCZsCr5T-7jDD77V8dt_simGsn?usp=sharing">
+        https://colab.research.google.com/drive/1iC7i_EWCZsCr5T-7jDD77V8dt_simGsn?usp=sharing
+      </a>
+      <table>
+        <tr>
+          <td> Strong Baseline Dice分數圖片 使用了attention_unet
+            <img src="strong.png" width="100%" height="560">
+        </tr>
+      </table>
+    </div>
+  </div> -->
   <!-- ------------------------------------------------>
 
 
